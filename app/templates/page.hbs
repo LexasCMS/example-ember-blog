@@ -1,0 +1,9 @@
+<h1 class="text-6xl font-bold mb-10">Blog</h1>
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 row-gap-12 sm:row-gap-16">
+  {{#each @model.blogPosts as |blogPost|}}
+    <BlogPost::Small @post={{blogPost}} />
+  {{/each}}
+</div>
+
+<Pagination @prevPage={{@model.prevPage}} @nextPage={{@model.nextPage}} />

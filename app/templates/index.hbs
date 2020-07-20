@@ -1,0 +1,15 @@
+<h1 class="text-6xl font-bold mb-10">Blog</h1>
+
+<div class="border-b border-gray-300 pb-12 lg:pb-16 mb-12 lg:mb-16">
+  <BlogPost::Large @post={{@model.featured}} />
+</div>
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 row-gap-12 sm:row-gap-16">
+  {{#each @model.blogPosts as |blogPost|}}
+    <BlogPost::Small @post={{blogPost}} />
+  {{/each}}
+</div>
+
+{{#if @model.hasNextPage}}
+  <Pagination @nextPage={{2}} />
+{{/if}}

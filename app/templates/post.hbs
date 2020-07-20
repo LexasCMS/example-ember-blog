@@ -1,0 +1,15 @@
+<h1 class="text-4xl sm:text-5xl leading-10 sm:leading-14 font-bold mb-8 sm:text-center">{{@model.title}}</h1>
+
+<div class="text-lg font-medium text-gray-900 sm:text-center mb-10">
+  Published on {{moment-format @model.publishedAt "MMMM D, YYYY"}} by {{@model.author.name}}
+</div>
+
+<div class="max-w-screen-md mx-auto">
+  <img src="{{@model.coverImage.url}}" class="w-full object-cover rounded mb-6" />
+
+  <div class="text-gray-700 leading-8 space-y-4 mb-8">
+    {{markdown-to-html @model.mainContent tagName=""}}
+  </div>
+
+  <LinkTo @route="index" class="text-gray-900 font-medium hover:text-gray-700">&larr; Back to Posts</LinkTo>
+</div>

@@ -1,0 +1,12 @@
+<div class="flex justify-between border-t border-gray-300 pt-6 mt-12">
+  <div>
+    {{#if @prevPage}}
+      <LinkTo @route="page" @model={{@prevPage}} class="text-gray-900 font-medium hover:text-gray-700">&larr; Newer Posts</LinkTo>
+    {{/if}}
+  </div>
+  <div>
+    {{#if @nextPage}}
+      <LinkTo @route="page" @model={{@nextPage}} class="text-gray-900 font-medium hover:text-gray-700">Older Posts &rarr;</LinkTo>
+    {{/if}}
+  </div>
+</div>
