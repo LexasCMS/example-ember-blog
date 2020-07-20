@@ -1,58 +1,21 @@
-# example-ember-blog
+# Ember.js Blog Example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repo contains an example of a blog which has been built using [Ember.js](https://emberjs.com/), with the content being pulled from [LexasCMS](https://www.lexascms.com/).
 
-## Prerequisites
+<p align="center">
+  <img src="preview.png" alt="Ember.js Blog Example Preview" style="max-width:90%;" />
+</p>
 
-You will need the following things properly installed on your computer.
+## Live Demo
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+[Click here](https://lexascms-example-ember-blog.netlify.app/) to view a live demo of this repo.
 
-## Installation
+## Deploy to Netlify
 
-* `git clone <repository-url>` this repository
-* `cd example-ember-blog`
-* `yarn install`
+Before deploying this repo, you'll need to have created a space using the **Blog Starter Template** in your LexasCMS account.
 
-## Running / Development
+After creating your new space, copy your space ID and then click the button below to deploy the project to [Netlify](https://www.netlify.com/).
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/LexasCMS/example-ember-blog)
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+If you don't yet have an account, you can [click here](https://app.lexascms.com/signup) to start a free trial.
