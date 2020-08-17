@@ -19,3 +19,9 @@ After creating your new space, copy your space ID and then click the button belo
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/LexasCMS/example-ember-blog)
 
 If you don't yet have an account, you can [click here](https://app.lexascms.com/signup) to start a free trial.
+
+## Ember Twiddle
+
+If you'd prefer to have a play around with this example without deploying your own version, we have also created an Ember Twiddle which you can find by clicking the link below.
+
+[Open Ember Twiddle](https://ember-twiddle.com/ec667248ae703707db4e2157709eae4c)
