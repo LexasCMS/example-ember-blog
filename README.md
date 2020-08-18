@@ -22,6 +22,6 @@ If you don't yet have an account, you can [click here](https://app.lexascms.com/
 
 ## Ember Twiddle
 
-If you'd prefer to have a play around with this example without deploying your own version, we have also created an Ember Twiddle which you can find by clicking the link below.
+If you'd prefer to have a play around with this example without deploying your own version, we have also created an Ember Twiddle which you can find by clicking the button below.
 
-[Open Ember Twiddle](https://ember-twiddle.com/ec667248ae703707db4e2157709eae4c)
+[<img src="ember-twiddle-button.svg" alt="Open Ember Twiddle" />](https://ember-twiddle.com/ec667248ae703707db4e2157709eae4c)
